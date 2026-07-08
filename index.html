@@ -1,18 +1,20 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caribe Sol Colombia | Reportes Meteorológicos y Temperatura</title>
-    <meta name="description" content="Servicio informativo de Caribe Sol Colombia. Proporcionamos reportes diarios de temperatura para la planificación de actividades en la región caribeña.">
+    <title>Caribe Sol Colombia | Información y Reportes de Acueducto</title>
+    <meta name="description" content="Servicio informativo de Caribe Sol Colombia. Proporcionamos reportes actualizados sobre el estado del acueducto, cortes de agua y mantenimiento en la región.">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-     
-
+    
     <style>
-         
-
-        :root { --primary: #f59e0b; --secondary: #0284c7; --dark: #0f172a; --light: #f8fafc; }
+        :root { 
+            /* Se mantienen los colores originales (azul agua y naranja sol) que van bien con el nombre */
+            --primary: #f59e0b; 
+            --secondary: #0284c7; 
+            --dark: #0f172a; 
+            --light: #f8fafc; 
+        }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Roboto', sans-serif; color: #334155; line-height: 1.6; }
         h1, h2, h3 { font-family: 'Montserrat', sans-serif; color: var(--dark); }
@@ -20,7 +22,7 @@
         header { background: #fff; padding: 1.2rem 5%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
         .logo { font-weight: 700; color: var(--secondary); font-size: 1.4rem; }
         
-        .hero { background: linear-gradient(135deg, #e0f2fe 0%, #fff7ed 100%); padding: 5rem 5%; text-align: center; }
+        .hero { background: linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 100%); padding: 5rem 5%; text-align: center; }
         .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
         .hero p { font-size: 1.2rem; max-width: 800px; margin: 0 auto 2rem; }
 
@@ -45,40 +47,39 @@
     </style>
 </head>
 <body>
-    <div id="preloader">
-    <div class="spinner"></div>
-</div>
+
 <div id="preloader">
     <div class="spinner"></div>
 </div>
+
 <header>
     <div class="logo">Caribe Sol Colombia</div>
 </header>
 
 <section class="hero">
-    <h1>Información Meteorológica del Caribe en su Correo</h1>
-    <p>Somos una plataforma dedicada a la difusión de datos climáticos diarios para ayudar a residentes y turistas a planificar su jornada con precisión.</p>
+    <h1>Información del Suministro de Agua en su Correo</h1>
+    <p>Somos una plataforma dedicada a la difusión de datos sobre el estado del acueducto para ayudar a residentes y comercios a planificar su jornada ante posibles cortes o mantenimientos.</p>
 </section>
 
 <section class="about-us">
     <h2>Sobre Nosotros</h2>
-    <p>Caribe Sol Colombia, liderada por <strong>JEFERSSON ANDRES YANGUAS MENESES</strong>, nace con el objetivo de ofrecer claridad informativa sobre las condiciones térmicas de la región. No somos una entidad gubernamental; somos un servicio independiente de noticias y reportes climáticos.</p>
+    <p>Caribe Sol Colombia, liderada por <strong>JEFERSSON ANDRES YANGUAS MENESES</strong>, nace con el objetivo de ofrecer claridad informativa sobre el funcionamiento de las redes de acueducto de la región. No somos la entidad prestadora del servicio; somos un portal independiente de noticias y reportes sobre el suministro de agua.</p>
 </section>
 
 <section class="info-section">
     <div class="info-card">
-        <h3>Reportes de Grados</h3>
-        <p>Monitoreamos los índices de calor para ofrecer proyecciones precisas sobre los grados centígrados diarios.</p>
+        <h3>Reportes de Cortes Programados</h3>
+        <p>Monitoreamos los cronogramas de mantenimiento de las redes para ofrecer información precisa sobre racionamientos e interrupciones del servicio.</p>
     </div>
     <div class="info-card">
-        <h3>Alertas de Radiación</h3>
-        <p>Información clave para la protección solar y la salud de los habitantes del Caribe colombiano.</p>
+        <h3>Recomendaciones y Calidad</h3>
+        <p>Información clave sobre el estado del agua potable, alertas de presión y consejos para el consumo responsable en los hogares del Caribe colombiano.</p>
     </div>
 </section>
 
 <section id="suscripcion" class="form-section">
-    <h2>Suscríbete a nuestro Boletín Diario</h2>
-    <p>Recibe cada mañana el reporte actualizado de temperatura.</p>
+    <h2>Suscríbete a nuestro Boletín Informativo</h2>
+    <p>Recibe notificaciones oportunas sobre el estado del acueducto en tu sector.</p>
     <div class="form-container">
         <form action="#">
             <div class="form-group">
@@ -90,7 +91,7 @@
                 <input type="email" placeholder="tu@correo.com" required>
             </div>
             <button type="submit" class="btn-submit">Unirse al Boletín</button>
-            <p class="privacy-notice">Al suscribirte, aceptas el tratamiento de tus datos para el envío de información climática conforme a nuestra política de privacidad.</p>
+            <p class="privacy-notice">Al suscribirte, aceptas el tratamiento de tus datos para el envío de información sobre el acueducto conforme a nuestra política de privacidad.</p>
         </form>
     </div>
 </section>
@@ -101,7 +102,7 @@
             <h4>Información Legal</h4>
             <p><strong>Responsable:</strong> JEFERSSON ANDRES YANGUAS MENESES</p>
             <p><strong>Dirección:</strong> Cra. 5b #5-62, Florencia, Caquetá, 180002, Colombia</p>
-            <p><strong>Identificación:</strong> Operamos bajo la normativa de transparencia comercial de Colombia.</p>
+            <p><strong>Identificación:</strong> Operamos bajo la normativa de transparencia comercial de Colombia como portal informativo independiente.</p>
         </div>
         <div>
             <h4>Contacto de Soporte</h4>
@@ -123,4 +124,3 @@
 
 </body>
 </html>
- 
